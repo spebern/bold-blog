@@ -1,0 +1,19 @@
+#+title: Hello World
+
+#+begin_src jupyter-python :session bla :results output :exports both
+import matplotlib.pyplot as plt
+import numpy as np
+
+xpoints = np.array([1, 8])
+ypoints = np.array([3, 10])
+
+plt.plot(xpoints, ypoints)
+plt.show()
+#+end_src
+
+#+RESULTS:
+:RESULTS:
+#+attr_org: :width 543
+[[file:./.ob-jupyter/06cc50739259a990686c593c7d3d36530aa132a5.png]]
+: hello world
+:END:
